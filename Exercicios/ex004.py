@@ -1,3 +1,4 @@
+#Dissecando Váriavel
 x = input('Digite algo:')
 print('Tipo primitivo:', type(x))
 print('É um númerico:', x.isnumeric())
