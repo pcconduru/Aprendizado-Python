@@ -1,8 +1,13 @@
 #Jogo de adivinhação v1.0
-import random
+from random import randint
+from time import sleep
+print('-=-' * 20)
+print('JOGO DE ADIVINHAÇÃO, ESCOLHA UM NÚMERO ENTRE 0 e 5')
+print('-=-' * 20)
 nu = int(input('Digite um número: '))
-nl = [0, 1, 2, 3, 4, 5]
-nm = random.choice(nl)
+nm = randint(0, 5)
+print('PROCESSANDO...')
+sleep(2.5)
 if nu == nm:
     print('Párabens, você ganhou!')
 else:
