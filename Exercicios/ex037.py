@@ -1,3 +1,4 @@
+#Convertendo para Binário, Octal e Hexadecimal
 n = int(input('Escolha um número: '))
 tipo = int(input('1.Binário\n2.Octal\n3.Hexadecimal\nEscolha um destes para uma conversão: '))
 if tipo == 3:
